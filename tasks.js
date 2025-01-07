@@ -134,8 +134,7 @@ function createTask(task){
         saveTask();//save tasks to the local storage.....
     });
     // li.style.display="flex";
-    listItem.appendChild(taskText);
-    listItem.appendChild(deleteBtn);
+    listItem.appendChild(taskText, deleteBtn);
     liDiv.appendChild(listItem);
     
 }
